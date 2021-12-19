@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 980px;
+    margin: 0 auto;
+}
+.logo{
+    padding: 15px;
+    background-color: rgb(141, 188, 219);
+    text-align: center;
+}
+.menu{
+    background-color: rgb(11, 5, 65);
+    padding: 8px;
+    text-align: center;
+}
+li{
+    display: inline;
+    padding-right: 25px;
+}
+li a{
+    color: white;
+    text-decoration: none;
+}
+.banner{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.search{
+    background-color: rgb(11, 5, 65);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.inp-text{
+    width: 700px;
+    height: 20px;
+}
+.inp-search{
+    width: 100px;
+    height: 20px;
+    border: 1px solid white;
+    background-color: orangered;
+    color: white;
+}
+.box-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.item{
+    border: 1px solid orangered;
+    padding: 15px;
+}
+.item img{
+    wwi
+}

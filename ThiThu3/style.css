@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 978px;
+    margin: 0 auto;
+}
+.logo-header{
+    background-color: orangered;
+    padding: 10px 0 10px 15px;
+}
+nav{
+    background-color: rgb(10, 4, 66);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px 10px 15px;
+}
+.menu-item{
+    display: inline;
+}
+.menu a{
+    color: white;
+    padding: 20px 15px 10px 15px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: orangered;
+}
+.search{
+    padding: 10px 15px 10px 0;
+}
+.inp-text{
+    width: 250px;
+    height: 20px;
+}
+.inp-srch{
+    width: 80px;
+    height: 20px;
+    border: 1px solid orangered;
+    background-color: rgb(10, 4, 66);
+    color: white;
+    margin-left: 10px;
+}
+.menu{
+    line-height: 40px;
+}
+.banner{
+    margin-top: 5px;
+}
+
+.content{
+    text-align: center;
+}
+
+.box-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin-top: 15px;
+}
+
+.item-info{
+    border: 1px solid orangered;
+    padding: 10px 15px;
+}
+
+.item-info img{
+    padding-top: 7px;
+    padding-bottom: 10px;
+}
+
+section{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.content-footer{
+    background-color: orangered;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    margin-top: 10px;
+}
+
+h2{
+    color: orangered;
+}
+
+h3{
+    color: rgb(206, 76, 16);
+}
+h2:hover{
+    text-decoration: underline;
+}
+h3:hover{
+    text-decoration: underline;
+}

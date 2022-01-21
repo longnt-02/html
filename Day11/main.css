@@ -1,0 +1,25 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+table{
+    border: 1px solid coral;
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td{
+    border: 1px solid coral;
+}
+
+.username, .password{
+    border: 1px solid rgb(51, 47, 35);
+}
+
+ .bnt-login{
+     background-color: darkgoldenrod;
+     color: darkgrey;
+     border: none;
+     padding: 0 10px;
+ }

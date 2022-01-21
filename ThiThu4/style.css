@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    width: 978px;
+    margin: 0 auto;
+}
+
+.logo{
+    background-color: orangered;
+    padding: 10px 0 10px 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(7, 2, 66);
+    padding: 10px 5px 10px 0;
+}
+
+.menu{
+    line-height: 27px;
+}
+
+.menu-item{
+    display: inline;
+    padding: 15px 15px 15px 10px;
+}
+
+.menu-item:hover{
+    background-color: orangered;
+}
+
+.inp-text{
+    width: 300px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.inp-search{
+    background-color: rgb(7, 2, 66);
+    border: 1px solid orangered;
+    color: white;
+    width: 100px;
+    height: 25px;
+}
+
+.banner{
+    margin-top: 7px;
+}
+
+.content{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+h3{
+    color: rgb(179, 81, 2);
+}
+
+h2{
+    color: orangered;
+}
+h2:hover{
+    text-decoration: underline;
+}
+h3:hover{
+    text-decoration: underline;
+}
+.item{
+    border:1px solid orangered;
+    padding: 10px;
+}
+.item img{
+    width: 100%;
+    padding: 10px 0 10px 0;
+}
+
+section{
+    margin-top: 15px;
+}
+
+.content-footer{
+    text-align: center;
+    background-color: orangered;
+    padding: 10px;
+    color: white;
+    margin-top: 15px;
+}
+
+
